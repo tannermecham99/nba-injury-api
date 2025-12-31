@@ -1,0 +1,24 @@
+{
+  "name": "espn-nba-depth-chart-scraper",
+  "version": "1.0.0",
+  "description": "Scrape ESPN NBA depth charts to enhance fantasy basketball injury tracking",
+  "main": "espn-depth-scraper.js",
+  "scripts": {
+    "scrape": "node espn-depth-scraper.js",
+    "scrape-all": "node espn-depth-scraper.js --all",
+    "test": "node depth-chart-integration.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "keywords": [
+    "nba",
+    "espn",
+    "depth-chart",
+    "scraper",
+    "fantasy-basketball"
+  ],
+  "author": "",
+  "license": "MIT"
+}
